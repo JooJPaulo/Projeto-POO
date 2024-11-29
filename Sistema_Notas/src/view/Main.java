@@ -1,14 +1,8 @@
 package view;
 
-public class Main{
-
-	public static void main(String[] args){
-		
-		JanelaLogin janelaLogin = new JanelaLogin();//--Essa é a aprimeira tela
-		//TelaLoginAluno loginAluno = new TelaLoginAluno();//--Essa é a tela de Login do Aluno
-		//TelaCadastroAluno cadastroAluno = new TelaCadastroAluno();
-		//TelaLoginProfessor telaDoProfessor = new TelaLoginProfessor();
-		//TelaCadastroProfessor cadastroProfessor = new TelaCadastroProfessor();
-		
-	}
-}
+public class Main {
+    public static void main(String[] args) {
+        // Inicializa a tela de login
+        JanelaLogin janelaLogin = new JanelaLogin(); // Esta é a primeira tela
+    }
+} 
